@@ -10,7 +10,6 @@ for i in range(int(M)):
     col.append(i)
     ingredients.append(col)
 
-
 ingredients=sorted(ingredients, key=lambda x:x[0], reverse=True) 
 
 # Set Conversion
